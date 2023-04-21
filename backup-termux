@@ -1,0 +1,4 @@
+#!/bin/bash
+termux-backup backup/backup.tar.gz
+tar -zcf /sdcard/com.termux/termux-backup.tar.gz -C /data/data/com.termux/files ./home ./usr
+rm backup/backup.tar.gz
